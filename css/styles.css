@@ -10,6 +10,9 @@ p, li {
 h1, h2, h3, h4 {
   font-family: 'Farro', serif;
 }
+#basic-info {
+  background-color: white !important;
+}
 
 #skills-list {
   padding-left: 0;
@@ -50,7 +53,7 @@ h1, h2, h3, h4 {
   padding-bottom: 0.5em;
   margin-bottom: 1em;
   h4 {
-    padding: 0.5em;
+    padding: 0.8em 1em;
     margin: 0;
     background-color: #4a54ec;
     color: #eee;
