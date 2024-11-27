@@ -1,7 +1,44 @@
+.wrapper {
+  display: flex
+}
+
 p, li {
-  font-family: 'Monserrat', sans-serif
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Farro', serif
+  font-family: 'Farro', serif;
+}
+
+#skills-list {
+  padding-left: 0;
+  li {
+    list-style-type: none;
+    padding: 0.5em;
+    background-color: aliceblue;
+    margin-bottom: 0.5em;
+    filter: drop-shadow(1px 1px 1px #ddd);  
+  }
+  li:hover {
+    background-color: darkslateblue;
+    color: white;
+    filter: drop-shadow(2px 2px 2px #ddd);
+  }
+}
+
+.work-experience-entry {
+  margin-bottom: 0.5em;
+  padding: 1em;
+  background-color: aliceblue;
+}
+
+.experience-header {
+  line-height: 0.6em;
+  padding: 0.3em 1em;
+  background-color: #4a54ec;
+  color: #eee;
+}
+
+.experience-responsibilities {
+  line-height: 1.5em;
 }
