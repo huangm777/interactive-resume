@@ -1,34 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Michael (Mike) Huang - Front End Engineer</title>
-    <link href="styles.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/960_grid.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <hgroup>
+  <body class="container_16">
+    <hgroup class="grid_16">
       <h1>Michael Huang</h1>
       <h2>Front End Software Engineer</h2>
       <address>
         <h3>Contact Information</h3>
         <p>Los Angeles, CA</p>
         <ul>
-          <li><a href="https://linkedin.com/in/huangm777">LinkedIn profile</a></li>
+          <li>
+            <a href="https://linkedin.com/in/huangm777">LinkedIn profile</a>
+          </li>
           <li><a href="mailto: mhuang777@gmail.com">Email</a></li>
           <li><a href="tel: +19095292897">Phone</a></li>
         </ul>
       </address>
     </hgroup>
-    <main>
-      <section>
+    <main class="grid_16">
+      <section class="grid_16">
         <h3>Description</h3>
-        <p>Two decades of experience with front end development in React, Angular, and mobile web frameworks. Implemented CI/CD and Jest unit/integration testing. UI/UX design and wireframing experience with Figma. Also C#, PHP, and MySQL on the back end.</p>
+        <p>
+          Two decades of experience with front end development in React,
+          Angular, and mobile web frameworks. Implemented CI/CD and Jest
+          unit/integration testing. UI/UX design and wireframing experience with
+          Figma. Also C#, PHP, and MySQL on the back end.
+        </p>
       </section>
-      <section>
+      <section class="grid_4 alpha">
         <h3>Skills</h3>
         <ul id="skills-list">
           <li class="skill">React</li>
@@ -51,21 +62,42 @@
           <li class="skill">Node.js</li>
         </ul>
       </section>
-      <section>
+      <section class="grid_8">
         <h3>Work Experience</h3>
         <article id="experience-aws" class="work-experience-entry">
           <hgroup class="experience-header">
             <h4>Amazon Web Services</h4>
             <p>Front End Engineer II (L5)</p>
             <p>Seattle, WA</p>
-            <p class="experience-length"><time datetime="2022-09">September 2022</time> - <time datetime="2024-10">October 2024</time></p>
+            <p class="experience-length">
+              <time datetime="2022-09">September 2022</time> -
+              <time datetime="2024-10">October 2024</time>
+            </p>
           </hgroup>
           <ul class="experience-responsibilities">
-            <li>Led and implemented end-to-end development of 4 TypeScript React-based features for the EC2 and VPC consoles, with complex state management using React Query or Redux.</li>
-            <li>Wrote engineering design docs, built the React components and pages integrating with AWS SDK REST APIs, wrote unit and integration tests, and deployed the features worldwide via CI/CD.</li>
-            <li>Coordinated feature projects with multiple developers to best achieve project completion on time.</li>
-            <li>Closely collaborated with designers and product managers to determine timelines, technical feasibility, and UI/UX feedback for the features.</li>
-            <li>Led investigations and wrote 2 Correction of Error (CoE) reports from incidents during on-call shifts.</li>
+            <li>
+              Led and implemented end-to-end development of 4 TypeScript
+              React-based features for the EC2 and VPC consoles, with complex
+              state management using React Query or Redux.
+            </li>
+            <li>
+              Wrote engineering design docs, built the React components and
+              pages integrating with AWS SDK REST APIs, wrote unit and
+              integration tests, and deployed the features worldwide via CI/CD.
+            </li>
+            <li>
+              Coordinated feature projects with multiple developers to best
+              achieve project completion on time.
+            </li>
+            <li>
+              Closely collaborated with designers and product managers to
+              determine timelines, technical feasibility, and UI/UX feedback for
+              the features.
+            </li>
+            <li>
+              Led investigations and wrote 2 Correction of Error (CoE) reports
+              from incidents during on-call shifts.
+            </li>
           </ul>
         </article>
         <article id="experience-wd" class="work-experience-entry">
@@ -73,13 +105,28 @@
             <h4>Western Digital</h4>
             <p>Principal Software Development Engineer</p>
             <p>Irvine, CA</p>
-            <p class="experience-length"><time datetime="2022-01">January 2022</time> - <time datetime="2022-09">September 2022</time></p>
+            <p class="experience-length">
+              <time datetime="2022-01">January 2022</time> -
+              <time datetime="2022-09">September 2022</time>
+            </p>
           </hgroup>
           <ul class="experience-responsibilities">
-            <li>UI/UX designed and built ReactJS-based HDD factory repair and part inventory automation console tools.</li>
-            <li>Created REST API backends for the console tool with Java Spring and MSSQL.</li>
-            <li>Introduced a formal design and review process for UI/UX with Figma, reducing the time from design to implementation.</li>
-            <li>Created report and presentation about the improvements introduced through the factory/part console.</li>
+            <li>
+              UI/UX designed and built ReactJS-based HDD factory repair and part
+              inventory automation console tools.
+            </li>
+            <li>
+              Created REST API backends for the console tool with Java Spring
+              and MSSQL.
+            </li>
+            <li>
+              Introduced a formal design and review process for UI/UX with
+              Figma, reducing the time from design to implementation.
+            </li>
+            <li>
+              Created report and presentation about the improvements introduced
+              through the factory/part console.
+            </li>
           </ul>
         </article>
         <article id="experience-lpl" class="work-experience-entry">
@@ -87,13 +134,25 @@
             <h4>LPL Financial</h4>
             <p>Senior Developer (UI)</p>
             <p>San Diego, CA</p>
-            <p class="experience-length"><time datetime="2020-12">December 2020</time> - <time datetime="2022-01">January 2022</time></p>
+            <p class="experience-length">
+              <time datetime="2020-12">December 2020</time> -
+              <time datetime="2022-01">January 2022</time>
+            </p>
           </hgroup>
           <ul class="experience-responsibilities">
-            <li>Developed Angular single-page web applications for financial advisors.</li>
+            <li>
+              Developed Angular single-page web applications for financial
+              advisors.
+            </li>
             <li>Migrated application from AngularJS to Angular.</li>
-            <li>Redesigned UI/UX for the Angular applications using Sketch and Photoshop.</li>
-            <li>Deployed applications via CI/CD with JFrog Artifactory, JetBrains TeamCity, and Octopus Deploy.</li>
+            <li>
+              Redesigned UI/UX for the Angular applications using Sketch and
+              Photoshop.
+            </li>
+            <li>
+              Deployed applications via CI/CD with JFrog Artifactory, JetBrains
+              TeamCity, and Octopus Deploy.
+            </li>
             <li>Wrote documentation to standardize CI/CD procedures.</li>
           </ul>
         </article>
@@ -102,14 +161,34 @@
             <h4>COFEBE</h4>
             <p>Software Engineer</p>
             <p>Orange, CA</p>
-            <p class="experience-length"><time datetime="2017-02">February 2017</time> - <time datetime="2020-04">April 2020</time></p>
+            <p class="experience-length">
+              <time datetime="2017-02">February 2017</time> -
+              <time datetime="2020-04">April 2020</time>
+            </p>
           </hgroup>
           <ul class="experience-responsibilities">
-            <li>Created single-page applications in Angular (2 through 9), using the Bootstrap UI library, for clients in social media, foundations, and aerospace.</li>
-            <li>Created Ionic (Angular) framework mobile web applications for social selling, incorporating shopping carts, Stripe payment, and streaming video sync.</li>
-            <li>Developed a Vue.js web site with Laravel-based CMS, writing API services and components.</li>
-            <li>Developed REST API backends for the front-end applications using PHP and running on Node.js servers.</li>
-            <li>Wireframed and mocked up UI/UX interfaces with Mockingbird software.</li>
+            <li>
+              Created single-page applications in Angular (2 through 9), using
+              the Bootstrap UI library, for clients in social media,
+              foundations, and aerospace.
+            </li>
+            <li>
+              Created Ionic (Angular) framework mobile web applications for
+              social selling, incorporating shopping carts, Stripe payment, and
+              streaming video sync.
+            </li>
+            <li>
+              Developed a Vue.js web site with Laravel-based CMS, writing API
+              services and components.
+            </li>
+            <li>
+              Developed REST API backends for the front-end applications using
+              PHP and running on Node.js servers.
+            </li>
+            <li>
+              Wireframed and mocked up UI/UX interfaces with Mockingbird
+              software.
+            </li>
           </ul>
         </article>
         <article id="experience-veritone" class="work-experience-entry">
@@ -117,12 +196,23 @@
             <h4>Veritone</h4>
             <p>Software Engineer</p>
             <p>Newport Beach, CA</p>
-            <p class="experience-length"><time datetime="2016-09">September 2016</time> - <time datetime="2017-01">January 2017</time></p>
+            <p class="experience-length">
+              <time datetime="2016-09">September 2016</time> -
+              <time datetime="2017-01">January 2017</time>
+            </p>
           </hgroup>
           <ul class="experience-responsibilities">
-            <li>Created AngularJS single-page applications for artificial intelligence applications, including automated chat agents.</li>
-            <li>Created AngularJS components to upload files to Amazon S3 buckets.</li>
-            <li>Transferred to COFEBE due to leadership change in company (migrated with several employees).</li>
+            <li>
+              Created AngularJS single-page applications for artificial
+              intelligence applications, including automated chat agents.
+            </li>
+            <li>
+              Created AngularJS components to upload files to Amazon S3 buckets.
+            </li>
+            <li>
+              Transferred to COFEBE due to leadership change in company
+              (migrated with several employees).
+            </li>
           </ul>
         </article>
         <article id="experience-exos" class="work-experience-entry">
@@ -130,10 +220,17 @@
             <h4>Team EXOS</h4>
             <p>Front End Engineer</p>
             <p>Hollywood, CA</p>
-            <p class="experience-length"><time datetime="2015-09">September 2015</time> - <time datetime="2016-06">June 2016</time></p>
+            <p class="experience-length">
+              <time datetime="2015-09">September 2015</time> -
+              <time datetime="2016-06">June 2016</time>
+            </p>
           </hgroup>
           <ul class="experience-responsibilities">
-            <li>Developed AngularJS single page applications (components and services) with Bootstrap UI components for fitness training programs.</li>
+            <li>
+              Developed AngularJS single page applications (components and
+              services) with Bootstrap UI components for fitness training
+              programs.
+            </li>
             <li>Integrated Google Chart API visualization for chart data.</li>
             <li>Wrote Angular unit tests using Protractor.</li>
             <li>Deployed applications via CI/CD with Jenkins.</li>
@@ -144,14 +241,32 @@
             <h4>Trifecta Clinical</h4>
             <p>Software Developer</p>
             <p>Los Angeles, CA</p>
-            <p class="experience-length"><time datetime="2013-12">December 2013</time> - <time datetime="2015-09">September 2015</time></p>
+            <p class="experience-length">
+              <time datetime="2013-12">December 2013</time> -
+              <time datetime="2015-09">September 2015</time>
+            </p>
           </hgroup>
           <ul class="experience-responsibilities">
-            <li>Developed Angular.JS applications (components, services, dependencies) and Smarty Templates on PHP for clinical trial tracking.</li>
-            <li>Developed web applications integrating video players for locally hosted video files.</li>
-            <li>Developed PHP REST API services with Oracle database backends.</li>
-            <li>Developed Amazon Payments powered e-commerce site (frontend AngularJS, backend PHP).</li>
-            <li>Wireframed, presented, and got feedback for UI/UX designs in wireframing software.</li>
+            <li>
+              Developed Angular.JS applications (components, services,
+              dependencies) and Smarty Templates on PHP for clinical trial
+              tracking.
+            </li>
+            <li>
+              Developed web applications integrating video players for locally
+              hosted video files.
+            </li>
+            <li>
+              Developed PHP REST API services with Oracle database backends.
+            </li>
+            <li>
+              Developed Amazon Payments powered e-commerce site (frontend
+              AngularJS, backend PHP).
+            </li>
+            <li>
+              Wireframed, presented, and got feedback for UI/UX designs in
+              wireframing software.
+            </li>
           </ul>
         </article>
         <article id="experience-vpi" class="work-experience-entry">
@@ -159,33 +274,61 @@
             <h4>Nationwide (Veterinary) Pet Insurance</h4>
             <p>UI/UX Specialist</p>
             <p>Brea, CA</p>
-            <p class="experience-length"><time datetime="2010-01">January 2010</time> - <time datetime="2013-12">December 2013</time></p>
+            <p class="experience-length">
+              <time datetime="2010-01">January 2010</time> -
+              <time datetime="2013-12">December 2013</time>
+            </p>
           </hgroup>
           <ul class="experience-responsibilities">
-            <li>Developed webpages and landing pages with HTML, CSS, and JavaScript with jQuery, including the price comparison tool (still present on the website).</li>
-            <li>Developed mobile website for petinsurance.com, using the jQuery Mobile library.</li>
+            <li>
+              Developed webpages and landing pages with HTML, CSS, and
+              JavaScript with jQuery, including the price comparison tool (still
+              present on the website).
+            </li>
+            <li>
+              Developed mobile website for petinsurance.com, using the jQuery
+              Mobile library.
+            </li>
             <li>Administered and managed Sitecore CMS to publish web pages.</li>
-            <li>Scripted, created, and sent HTML emails using ExactTarget with its proprietary AMPScript language.</li>
+            <li>
+              Scripted, created, and sent HTML emails using ExactTarget with its
+              proprietary AMPScript language.
+            </li>
             <li>Integrated ExactTarget with the Salesforce CRM.</li>
           </ul>
         </article>
       </section>
-      <section>
+      <section class="grid_4 omega">
         <h3>Education</h3>
         <article id="education-gatech" class="education-entry">
           <h4>Georgia Institute of Technology</h4>
-          <p><span class="education-degree">MS,</span> <span class="education-major">Computer Science</span></p>
+          <p>
+            <span class="education-degree">MS,</span>
+            <span class="education-major">Computer Science</span>
+          </p>
           <p><time datetime="2021-01">January 2021</time> - present</p>
         </article>
         <article id="education-umd" class="education-entry">
           <h4>University of Maryland, College Park</h4>
-          <p><span class="education-degree">BS,</span> <span class="education-major">Computer Science</span></p>
-          <p><time datetime="1999-08">August 1999</time> - <time datetime="2003-05">May 2003</time></p>
+          <p>
+            <span class="education-degree">BS,</span>
+            <span class="education-major">Computer Science</span>
+          </p>
+          <p>
+            <time datetime="1999-08">August 1999</time> -
+            <time datetime="2003-05">May 2003</time>
+          </p>
         </article>
         <article id="education-umd" class="education-entry">
           <h4>University of Maryland, College Park</h4>
-          <p><span class="education-degree">BA,</span> <span class="education-major">English Language and Literature</span></p>
-          <p><time datetime="1999-08">August 1999</time> - <time datetime="2003-05">May 2003</time></p>
+          <p>
+            <span class="education-degree">BA,</span>
+            <span class="education-major">English Language and Literature</span>
+          </p>
+          <p>
+            <time datetime="1999-08">August 1999</time> -
+            <time datetime="2003-05">May 2003</time>
+          </p>
         </article>
       </section>
     </main>
