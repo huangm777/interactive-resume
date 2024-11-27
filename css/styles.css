@@ -1,5 +1,6 @@
-.wrapper {
-  display: flex
+.grid_16 {
+  background-color: #c3e3ff !important;
+  padding: 1em;
 }
 
 p, li {
@@ -17,19 +18,18 @@ h1, h2, h3, h4 {
     padding: 0.5em;
     background-color: aliceblue;
     margin-bottom: 0.5em;
-    filter: drop-shadow(1px 1px 1px #ddd);  
+    filter: drop-shadow(1px 1px 1px #ccc);  
   }
   li:hover {
-    background-color: darkslateblue;
+    background-color: #4a54ec;
     color: white;
-    filter: drop-shadow(2px 2px 2px #ddd);
+    filter: drop-shadow(2px 2px 2px #ccc);
   }
 }
 
 .work-experience-entry {
-  margin-bottom: 0.5em;
-  padding: 1em;
   background-color: aliceblue;
+  filter: drop-shadow(1px 1px 1px #ccc);  
 }
 
 .experience-header {
@@ -41,4 +41,21 @@ h1, h2, h3, h4 {
 
 .experience-responsibilities {
   line-height: 1.5em;
+  padding-bottom: 1em;
+}
+
+.education-entry {
+  background-color: aliceblue;
+  filter: drop-shadow(1px 1px 1px #ccc);  
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  h4 {
+    padding: 0.5em;
+    margin: 0;
+    background-color: #4a54ec;
+    color: #eee;
+  }
+  p {
+    padding-left: 0.75em;
+  }
 }
