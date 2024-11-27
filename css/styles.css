@@ -10,8 +10,16 @@ p, li {
 h1, h2, h3, h4 {
   font-family: 'Farro', serif;
 }
+
 #basic-info {
   background-color: #fff !important;
+}
+
+address ul {
+  padding-left: 0;
+  li {
+    list-style-type: none;
+  }
 }
 
 #skills-list {
