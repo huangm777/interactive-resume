@@ -50,9 +50,22 @@ address ul {
   color: #eee;
 }
 
+.experience-skills-chips {
+  display: inline-flex;
+  li {
+    list-style-type: none;
+    padding: 0.3em;
+    background-color: #4a54ec;
+    color: white;
+    margin-right: 0.5em;
+    font-size: 0.7em;
+  }
+}
+
 .experience-responsibilities {
   line-height: 1.5em;
   padding-bottom: 1em;
+  padding-right: 0.6em;
 }
 
 .education-entry {
