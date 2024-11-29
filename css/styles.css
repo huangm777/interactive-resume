@@ -52,13 +52,15 @@ address ul {
 
 .experience-skills-chips {
   display: inline-flex;
+  padding-left: 1em;
   li {
     list-style-type: none;
-    padding: 0.3em;
+    padding: 0.4em 0.45em;
     background-color: #4a54ec;
     color: white;
     margin-right: 0.5em;
     font-size: 0.7em;
+    border-radius: 10px;
   }
 }
 
