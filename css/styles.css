@@ -53,12 +53,14 @@ address ul {
   padding: 0.3em 1em;
   background-color: #4a54ec;
   color: #eee;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .experience-skills-chips {
   display: inline-flex;
   padding-left: 1em;
+  margin-bottom: 0;
   li {
     list-style-type: none;
     padding: 0.4em 0.45em;
@@ -88,9 +90,15 @@ address ul {
     margin: 0;
     background-color: #4a54ec;
     color: #eee;
-    border-radius: 15px;
-  }
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;  }
   p {
     padding-left: 0.75em;
+    padding-right: 0.75em;
   }
+}
+
+hr {
+  border-bottom: 1px #ccc;
+  margin: 0 25px;
 }
