@@ -22,6 +22,10 @@ address ul {
   }
 }
 
+#description p {
+  line-height: 1.5em;
+}
+
 #skills-list {
   padding-left: 0;
   li {
@@ -41,6 +45,7 @@ address ul {
 .work-experience-entry {
   background-color: aliceblue;
   filter: drop-shadow(1px 1px 1px #ccc);  
+  border-radius: 15px;
 }
 
 .experience-header {
@@ -48,6 +53,7 @@ address ul {
   padding: 0.3em 1em;
   background-color: #4a54ec;
   color: #eee;
+  border-radius: 15px;
 }
 
 .experience-skills-chips {
@@ -61,6 +67,7 @@ address ul {
     margin-right: 0.5em;
     font-size: 0.7em;
     border-radius: 10px;
+    filter: drop-shadow(1px 1px 1px #bbb);  
   }
 }
 
@@ -75,11 +82,13 @@ address ul {
   filter: drop-shadow(1px 1px 1px #ccc);  
   padding-bottom: 0.5em;
   margin-bottom: 1em;
+  border-radius: 15px;
   h4 {
     padding: 0.8em 1em;
     margin: 0;
     background-color: #4a54ec;
     color: #eee;
+    border-radius: 15px;
   }
   p {
     padding-left: 0.75em;
