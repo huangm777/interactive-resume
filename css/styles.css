@@ -19,10 +19,9 @@ h3 {
 
 #basic-info {
   padding: 1em;
-  background-color: rgb(255, 255, 255, 0.1);
-  background-image: url('../assets/pexels-harold-vasquez-853421-2653362.jpg');
-  background-blend-mode: lighten;
+  background-image: url("../assets/pexels-harold-vasquez-853421-2653362.jpg");
   background-position: top right;
+  background-size:cover;
   color: white;
 }
 
