@@ -31,7 +31,7 @@ a {
 
 main {
   padding: 1em;
-  background-color: #83bce2;
+  background-color: #e0f1fd;
   display: grid;
   grid-template-areas:
     "description description description"
