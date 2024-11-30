@@ -1,8 +1,3 @@
-.grid_16 {
-  background-color: #c3e3ff !important;
-  padding: 1em;
-}
-
 p, li {
   font-family: 'Merriweather', serif;
 }
@@ -14,13 +9,60 @@ h1, h2, h3, h4 {
 
 #basic-info {
   background-color: #fff !important;
+  display: flex;
+  hgroup {
+    flex: 2;
+  }
+  
+  address {
+    flex: 1;
+    ul {
+      padding-left: 0;
+      li {
+        list-style-type: none;
+      }
+    }
+
+  }
 }
 
-address ul {
-  padding-left: 0;
-  li {
-    list-style-type: none;
+main {
+  display: grid;
+  grid-template-areas:
+    "description description description"
+    "skills work education";
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    display: grid;
+    grid-template-areas:
+    "description"
+    "skills"
+    "work"
+    "education";
+    grid-template-columns: 1fr;
+    column-gap: 5%;
   }
+}
+
+
+#description {
+ grid-area: description;
+}
+
+#skills-column {
+  grid-area: skills;
+}
+
+#work-column {
+  grid-area: work;
+}
+
+#education-column {
+  grid-area: education;
 }
 
 #description p {

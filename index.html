@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width" />
     <title>Michael (Mike) Huang - Front End Engineer</title>
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/960_grid.css" rel="stylesheet" />
     <link href="css/fonts.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
-  <body class="container_16">
-    <header id="basic-info" class="grid_16">
-      <hgroup id="header-info" class="grid_12 alpha">
+  <body>
+    <header id="basic-info">
+      <hgroup id="header-info">
         <h1>Michael Huang</h1>
         <h2>Front End Software Engineer</h2>
       </hgroup>
-      <address class="grid_4 omega">
+      <address>
         <h3>Contact Information</h3>
         <ul>
           <li>
@@ -27,7 +26,7 @@
         </ul>
       </address>
     </header>
-    <main class="grid_16">
+    <main>
       <section id="description">
         <h3>Description</h3>
         <p>
@@ -37,15 +36,15 @@
           Figma. Also C#, PHP, and MySQL on the back end.
         </p>
       </section>
-      <section class="grid_3 alpha">
+      <section id="skills-column">
         <h3>Skills</h3>
         <ul id="skills-list">
-          <li class="skill">React</li>
-          <li class="skill">React Query</li>
-          <li class="skill">Angular</li>
-          <li class="skill">AngularJS (1.0)</li>
-          <li class="skill">REST APIs</li>
-          <li class="skill">Jest</li>
+          <li id="skill-react" class="skill">React</li>
+          <li id="skill-react-query" class="skill">React Query</li>
+          <li id="skill-react-angular" class="skill">Angular</li>
+          <li id="skill-angularjs" class="skill">AngularJS (1.0)</li>
+          <li id="skill-rest-apis" class="skill">REST APIs</li>
+          <li id="skill-jest" class="skill">Jest</li>
           <li class="skill">CI/CD</li>
           <li class="skill">Figma</li>
           <li class="skill">TypeScript</li>
@@ -60,7 +59,7 @@
           <li class="skill">Node.js</li>
         </ul>
       </section>
-      <section class="grid_9">
+      <section id="work-column">
         <h3>Work Experience</h3>
         <article id="experience-aws" class="work-experience-entry">
           <hgroup class="experience-header">
@@ -352,7 +351,7 @@
           </ul>
         </article>
       </section>
-      <section class="grid_4 omega">
+      <section id="education-column">
         <h3>Education</h3>
         <article id="education-gatech" class="education-entry">
           <h4>Georgia Institute of Technology</h4>
@@ -383,6 +382,7 @@
           </p>
         </article>
       </section>
+    </div>
     </main>
   </body>
 </html>
