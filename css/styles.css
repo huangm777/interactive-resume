@@ -8,7 +8,9 @@ h1, h2, h3, h4 {
 }
 
 #basic-info {
-  background-color: #fff !important;
+  padding: 1em;
+
+  background-color: rgb(195, 227, 243) !important;
   display: flex;
   hgroup {
     flex: 2;
@@ -27,6 +29,9 @@ h1, h2, h3, h4 {
 }
 
 main {
+  padding: 1em;
+
+  background-color: #83bce2 !important;
   display: grid;
   grid-template-areas:
     "description description description"
@@ -35,7 +40,11 @@ main {
   gap: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+  #basic-info {
+    display:block;
+  }
+
   main {
     display: grid;
     grid-template-areas:
