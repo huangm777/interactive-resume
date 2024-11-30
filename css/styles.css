@@ -9,7 +9,6 @@ h1, h2, h3, h4 {
 
 #basic-info {
   padding: 1em;
-
   background-color: rgb(195, 227, 243) !important;
   display: flex;
   hgroup {
@@ -30,7 +29,6 @@ h1, h2, h3, h4 {
 
 main {
   padding: 1em;
-
   background-color: #83bce2 !important;
   display: grid;
   grid-template-areas:
@@ -39,23 +37,6 @@ main {
   grid-template-columns: 1fr 2fr 1fr;
   gap: 20px;
 }
-
-@media screen and (max-width: 900px) {
-  #basic-info {
-    display:block;
-  }
-
-  main {
-    display: grid;
-    grid-template-areas:
-    "description"
-    "skills"
-    "work"
-    "education";
-    grid-template-columns: 1fr;
-  }
-}
-
 
 #description {
  grid-area: description;
@@ -154,4 +135,13 @@ main {
 hr {
   border-bottom: 1px #ccc;
   margin: 0 25px;
+}
+
+@media screen and (max-width: 600px) {
+  #basic-info, main {
+    display: block;
+  }
+  .experience-skills-chips {
+    display: none;
+  }
 }
