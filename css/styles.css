@@ -25,9 +25,8 @@ h3 {
 
 img {
   margin-top: 1em;
-  height: 3em;
+  height: 50px;
   float: right;
-  padding-right: 1em;
 }
 
 hr {
@@ -159,8 +158,7 @@ main {
 
 .experience-responsibilities {
   line-height: 1.75em;
-  padding-bottom: 1em;
-  padding-right: 0.6em;
+  padding: 1.5em 2em;
 }
 
 .education-entry {
@@ -201,6 +199,9 @@ footer {
   }
   img {
     height: 2em;
+  }
+  footer {
+    display: block;
   }
 }
 
