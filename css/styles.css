@@ -42,6 +42,31 @@ img {
   color: white;
 }
 
+nav {
+  background-color: #c3e3f3;
+  padding:0;
+  margin:0;
+}
+
+nav ul {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  li {
+    font-family: "Parkinsans", sans-serif;    
+    padding: 1em;
+    list-style-type: none;
+    a {
+      color: #222;
+      text-decoration: none;
+    }
+  }
+  li:hover, li:hover a {
+    background-color: #303ce7;
+    color: #eee;
+  }
+}
+
 main {
   padding: 1em;
   background-color: #e0f1fd;
