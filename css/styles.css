@@ -98,7 +98,7 @@ main {
   line-height: 0.6em;
   padding: 0.3em 1em;
   background-color: #4a54ec;
-  background: linear-gradient(90deg, rgba(74,84,236,1) 50%, rgba(155,189,255,1) 100%);  
+  background: linear-gradient(45deg, #303ce7 50%, #83acff 100%);  
   color: #eee;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
