@@ -23,15 +23,16 @@ h3 {
   border-left: 10px #4a54ec solid;
 }
 
-a {
-  color: white;
-}
-
 img {
   margin-top: 1em;
   height: 3em;
   float: right;
   padding-right: 1em;
+}
+
+hr {
+  border-bottom: 1px #ccc;
+  margin: 0 25px;
 }
 
 #basic-info {
@@ -133,6 +134,9 @@ main {
   color: #eee;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  a {
+    color: white;
+  }
 }
 
 .experience-skills-chips {
@@ -179,10 +183,13 @@ main {
   }
 }
 
-hr {
-  border-bottom: 1px #ccc;
-  margin: 0 25px;
+footer {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
 }
+
 
 @media screen and (max-width: 600px) {
   #basic-info,
